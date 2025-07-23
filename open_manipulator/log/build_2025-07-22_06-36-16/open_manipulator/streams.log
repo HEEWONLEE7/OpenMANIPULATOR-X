@@ -1,0 +1,39 @@
+[0.011s] Invoking command in '/root/ros2_ws/src/open_manipulator/open_manipulator/build/open_manipulator': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_ws/install/open_manipulator_teleop:/root/ros2_ws/install/open_manipulator_bringup:/opt/ros/jazzy /usr/bin/cmake /root/ros2_ws/src/open_manipulator/open_manipulator -DCMAKE_INSTALL_PREFIX=/root/ros2_ws/src/open_manipulator/open_manipulator/install/open_manipulator
+[0.160s] -- The C compiler identification is GNU 13.3.0
+[0.241s] -- The CXX compiler identification is GNU 13.3.0
+[0.256s] -- Detecting C compiler ABI info
+[0.406s] -- Detecting C compiler ABI info - done
+[0.420s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.421s] -- Detecting C compile features
+[0.421s] -- Detecting C compile features - done
+[0.438s] -- Detecting CXX compiler ABI info
+[0.573s] -- Detecting CXX compiler ABI info - done
+[0.580s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.580s] -- Detecting CXX compile features
+[0.580s] -- Detecting CXX compile features - done
+[0.590s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.722s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.927s] -- Configuring done (0.9s)
+[0.929s] -- Generating done (0.0s)
+[0.931s] -- Build files have been written to: /root/ros2_ws/src/open_manipulator/open_manipulator/build/open_manipulator
+[0.936s] Invoked command in '/root/ros2_ws/src/open_manipulator/open_manipulator/build/open_manipulator' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_ws/install/open_manipulator_teleop:/root/ros2_ws/install/open_manipulator_bringup:/opt/ros/jazzy /usr/bin/cmake /root/ros2_ws/src/open_manipulator/open_manipulator -DCMAKE_INSTALL_PREFIX=/root/ros2_ws/src/open_manipulator/open_manipulator/install/open_manipulator
+[0.936s] Invoking command in '/root/ros2_ws/src/open_manipulator/open_manipulator/build/open_manipulator': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_ws/install/open_manipulator_teleop:/root/ros2_ws/install/open_manipulator_bringup:/opt/ros/jazzy /usr/bin/cmake --build /root/ros2_ws/src/open_manipulator/open_manipulator/build/open_manipulator -- -j20 -l20
+[0.993s] Invoked command in '/root/ros2_ws/src/open_manipulator/open_manipulator/build/open_manipulator' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_ws/install/open_manipulator_teleop:/root/ros2_ws/install/open_manipulator_bringup:/opt/ros/jazzy /usr/bin/cmake --build /root/ros2_ws/src/open_manipulator/open_manipulator/build/open_manipulator -- -j20 -l20
+[1.008s] Invoking command in '/root/ros2_ws/src/open_manipulator/open_manipulator/build/open_manipulator': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_ws/install/open_manipulator_teleop:/root/ros2_ws/install/open_manipulator_bringup:/opt/ros/jazzy /usr/bin/cmake --install /root/ros2_ws/src/open_manipulator/open_manipulator/build/open_manipulator
+[1.021s] -- Install configuration: ""
+[1.021s] -- Installing: /root/ros2_ws/src/open_manipulator/open_manipulator/install/open_manipulator/share/ament_index/resource_index/package_run_dependencies/open_manipulator
+[1.021s] -- Installing: /root/ros2_ws/src/open_manipulator/open_manipulator/install/open_manipulator/share/ament_index/resource_index/parent_prefix_path/open_manipulator
+[1.021s] -- Installing: /root/ros2_ws/src/open_manipulator/open_manipulator/install/open_manipulator/share/open_manipulator/environment/ament_prefix_path.sh
+[1.022s] -- Installing: /root/ros2_ws/src/open_manipulator/open_manipulator/install/open_manipulator/share/open_manipulator/environment/ament_prefix_path.dsv
+[1.022s] -- Installing: /root/ros2_ws/src/open_manipulator/open_manipulator/install/open_manipulator/share/open_manipulator/environment/path.sh
+[1.022s] -- Installing: /root/ros2_ws/src/open_manipulator/open_manipulator/install/open_manipulator/share/open_manipulator/environment/path.dsv
+[1.022s] -- Installing: /root/ros2_ws/src/open_manipulator/open_manipulator/install/open_manipulator/share/open_manipulator/local_setup.bash
+[1.022s] -- Installing: /root/ros2_ws/src/open_manipulator/open_manipulator/install/open_manipulator/share/open_manipulator/local_setup.sh
+[1.022s] -- Installing: /root/ros2_ws/src/open_manipulator/open_manipulator/install/open_manipulator/share/open_manipulator/local_setup.zsh
+[1.022s] -- Installing: /root/ros2_ws/src/open_manipulator/open_manipulator/install/open_manipulator/share/open_manipulator/local_setup.dsv
+[1.022s] -- Installing: /root/ros2_ws/src/open_manipulator/open_manipulator/install/open_manipulator/share/open_manipulator/package.dsv
+[1.022s] -- Installing: /root/ros2_ws/src/open_manipulator/open_manipulator/install/open_manipulator/share/ament_index/resource_index/packages/open_manipulator
+[1.022s] -- Installing: /root/ros2_ws/src/open_manipulator/open_manipulator/install/open_manipulator/share/open_manipulator/cmake/open_manipulatorConfig.cmake
+[1.022s] -- Installing: /root/ros2_ws/src/open_manipulator/open_manipulator/install/open_manipulator/share/open_manipulator/cmake/open_manipulatorConfig-version.cmake
+[1.023s] -- Installing: /root/ros2_ws/src/open_manipulator/open_manipulator/install/open_manipulator/share/open_manipulator/package.xml
+[1.024s] Invoked command in '/root/ros2_ws/src/open_manipulator/open_manipulator/build/open_manipulator' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_ws/install/open_manipulator_teleop:/root/ros2_ws/install/open_manipulator_bringup:/opt/ros/jazzy /usr/bin/cmake --install /root/ros2_ws/src/open_manipulator/open_manipulator/build/open_manipulator

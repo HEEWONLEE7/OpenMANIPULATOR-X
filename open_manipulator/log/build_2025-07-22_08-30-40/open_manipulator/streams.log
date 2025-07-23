@@ -1,0 +1,20 @@
+[0.010s] Invoking command in '/root/ros2_ws/src/open_manipulator/open_manipulator/build/open_manipulator': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_ws/install/open_manipulator_teleop:/root/ros2_ws/install/open_manipulator_bringup:/opt/ros/jazzy /usr/bin/cmake --build /root/ros2_ws/src/open_manipulator/open_manipulator/build/open_manipulator -- -j20 -l20
+[0.045s] Invoked command in '/root/ros2_ws/src/open_manipulator/open_manipulator/build/open_manipulator' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_ws/install/open_manipulator_teleop:/root/ros2_ws/install/open_manipulator_bringup:/opt/ros/jazzy /usr/bin/cmake --build /root/ros2_ws/src/open_manipulator/open_manipulator/build/open_manipulator -- -j20 -l20
+[0.058s] Invoking command in '/root/ros2_ws/src/open_manipulator/open_manipulator/build/open_manipulator': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_ws/install/open_manipulator_teleop:/root/ros2_ws/install/open_manipulator_bringup:/opt/ros/jazzy /usr/bin/cmake --install /root/ros2_ws/src/open_manipulator/open_manipulator/build/open_manipulator
+[0.068s] -- Install configuration: ""
+[0.068s] -- Up-to-date: /root/ros2_ws/src/open_manipulator/open_manipulator/install/open_manipulator/share/ament_index/resource_index/package_run_dependencies/open_manipulator
+[0.069s] -- Up-to-date: /root/ros2_ws/src/open_manipulator/open_manipulator/install/open_manipulator/share/ament_index/resource_index/parent_prefix_path/open_manipulator
+[0.069s] -- Up-to-date: /root/ros2_ws/src/open_manipulator/open_manipulator/install/open_manipulator/share/open_manipulator/environment/ament_prefix_path.sh
+[0.069s] -- Up-to-date: /root/ros2_ws/src/open_manipulator/open_manipulator/install/open_manipulator/share/open_manipulator/environment/ament_prefix_path.dsv
+[0.069s] -- Up-to-date: /root/ros2_ws/src/open_manipulator/open_manipulator/install/open_manipulator/share/open_manipulator/environment/path.sh
+[0.069s] -- Up-to-date: /root/ros2_ws/src/open_manipulator/open_manipulator/install/open_manipulator/share/open_manipulator/environment/path.dsv
+[0.069s] -- Up-to-date: /root/ros2_ws/src/open_manipulator/open_manipulator/install/open_manipulator/share/open_manipulator/local_setup.bash
+[0.069s] -- Up-to-date: /root/ros2_ws/src/open_manipulator/open_manipulator/install/open_manipulator/share/open_manipulator/local_setup.sh
+[0.069s] -- Up-to-date: /root/ros2_ws/src/open_manipulator/open_manipulator/install/open_manipulator/share/open_manipulator/local_setup.zsh
+[0.069s] -- Up-to-date: /root/ros2_ws/src/open_manipulator/open_manipulator/install/open_manipulator/share/open_manipulator/local_setup.dsv
+[0.069s] -- Installing: /root/ros2_ws/src/open_manipulator/open_manipulator/install/open_manipulator/share/open_manipulator/package.dsv
+[0.069s] -- Up-to-date: /root/ros2_ws/src/open_manipulator/open_manipulator/install/open_manipulator/share/ament_index/resource_index/packages/open_manipulator
+[0.069s] -- Up-to-date: /root/ros2_ws/src/open_manipulator/open_manipulator/install/open_manipulator/share/open_manipulator/cmake/open_manipulatorConfig.cmake
+[0.069s] -- Up-to-date: /root/ros2_ws/src/open_manipulator/open_manipulator/install/open_manipulator/share/open_manipulator/cmake/open_manipulatorConfig-version.cmake
+[0.069s] -- Up-to-date: /root/ros2_ws/src/open_manipulator/open_manipulator/install/open_manipulator/share/open_manipulator/package.xml
+[0.070s] Invoked command in '/root/ros2_ws/src/open_manipulator/open_manipulator/build/open_manipulator' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_ws/install/open_manipulator_teleop:/root/ros2_ws/install/open_manipulator_bringup:/opt/ros/jazzy /usr/bin/cmake --install /root/ros2_ws/src/open_manipulator/open_manipulator/build/open_manipulator

@@ -66,6 +66,111 @@
       <pose>0 0 0 0 0 0</pose>
       <self_collide>false</self_collide>
     </model>
+
+
+    <!-- 🟥 plate_red -->
+<model name="plate_red">
+  <static>true</static>
+  <pose>0.0 -0.4 0.005 0 0 0</pose>
+  <link name="base">
+    <visual name="bottom">
+      <geometry><box><size>0.08 0.08 0.005</size></box></geometry>
+      <material><ambient>1 0.3 0.3 1</ambient><diffuse>1 0.3 0.3 1</diffuse></material>
+    </visual>
+    <collision name="bottom_col">
+      <geometry><box><size>0.08 0.08 0.005</size></box></geometry>
+    </collision>
+  </link>
+</model>
+
+<!-- 🟩 plate_green -->
+<model name="plate_green">
+  <static>true</static>
+  <pose>0.1 -0.4 0.005 0 0 0</pose>
+  <link name="base">
+    <visual name="bottom">
+      <geometry><box><size>0.08 0.08 0.005</size></box></geometry>
+      <material><ambient>0.4 1 0.4 1</ambient><diffuse>0.4 1 0.4 1</diffuse></material>
+    </visual>
+    <collision name="bottom_col">
+      <geometry><box><size>0.08 0.08 0.005</size></box></geometry>
+    </collision>
+  </link>
+</model>
+
+<!-- 🔵 plate_blue -->
+<model name="plate_blue">
+  <static>true</static>
+  <pose>0.2 -0.4 0.005 0 0 0</pose>
+  <link name="base">
+    <visual name="bottom">
+      <geometry><box><size>0.08 0.08 0.005</size></box></geometry>
+      <material><ambient>0.5 0.5 1 1</ambient><diffuse>0.5 0.5 1 1</diffuse></material>
+    </visual>
+    <collision name="bottom_col">
+      <geometry><box><size>0.08 0.08 0.005</size></box></geometry>
+    </collision>
+  </link>
+</model>
+
+<!-- 🟥 red cube -->
+<model name="cube_red">
+  <static>true</static>
+  <pose>0.0 -0.5 0.0125 0 0 0</pose>
+  <link name="link">
+    <visual name="visual">
+      <geometry><box><size>0.025 0.025 0.025</size></box></geometry>
+      <material>
+        <ambient>1 0.3 0.3 1</ambient>
+        <diffuse>1 0.3 0.3 1</diffuse>
+        <specular>0.3 0.3 0.3 1</specular>
+      </material>
+    </visual>
+    <collision name="collision">
+      <geometry><box><size>0.025 0.025 0.025</size></box></geometry>
+    </collision>
+  </link>
+</model>
+
+<!-- 🟩 green cube -->
+<model name="cube_green">
+  <static>true</static>
+  <pose>0.1 -0.5 0.0125 0 0 0</pose>
+  <link name="link">
+    <visual name="visual">
+      <geometry><box><size>0.025 0.025 0.025</size></box></geometry>
+      <material>
+        <ambient>0.2 1 0.2 1</ambient>
+        <diffuse>0.2 1 0.2 1</diffuse>
+        <specular>0.3 0.3 0.3 1</specular>
+      </material>
+    </visual>
+    <collision name="collision">
+      <geometry><box><size>0.025 0.025 0.025</size></box></geometry>
+    </collision>
+  </link>
+</model>
+
+<!-- 🔵 blue cube -->
+<model name="cube_blue">
+  <static>true</static>
+  <pose>0.2 -0.5 0.0125 0 0 0</pose>
+  <link name="link">
+    <visual name="visual">
+      <geometry><box><size>0.025 0.025 0.025</size></box></geometry>
+      <material>
+        <ambient>0.2 0.4 1 1</ambient>
+        <diffuse>0.2 0.4 1 1</diffuse>
+        <specular>0.3 0.3 0.3 1</specular>
+      </material>
+    </visual>
+    <collision name="collision">
+      <geometry><box><size>0.025 0.025 0.025</size></box></geometry>
+    </collision>
+  </link>
+</model>
+
+    
 <gui>
   <camera name="user_camera">
     <pose>0 0 10 0 -1.57 0</pose>

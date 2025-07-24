@@ -24,12 +24,15 @@
           <geometry>
             <plane>
               <normal>0 0 1</normal>
-              <size>100 100</size>
+              <size>1.5 1.5</size>
             </plane>
           </geometry>
           <surface>
             <friction>
-              <ode/>
+              <ode>
+                <mu>1.0</mu>
+                <mu2>1.0</mu2>
+              </ode>
             </friction>
             <bounce/>
             <contact/>
@@ -39,13 +42,13 @@
           <geometry>
             <plane>
               <normal>0 0 1</normal>
-              <size>100 100</size>
+              <size>1.5 1.5</size>
             </plane>
           </geometry>
           <material>
-            <ambient>0.800000012 0.800000012 0.800000012 1</ambient>
-            <diffuse>0.800000012 0.800000012 0.800000012 1</diffuse>
-            <specular>0.800000012 0.800000012 0.800000012 1</specular>
+            <ambient>0.8 0.8 0.8 1</ambient>
+            <diffuse>0.8 0.8 0.8 1</diffuse>
+            <specular>0.8 0.8 0.8 1</specular>
           </material>
         </visual>
         <pose>0 0 0 0 0 0</pose>
@@ -66,6 +69,7 @@
       <pose>0 0 0 0 0 0</pose>
       <self_collide>false</self_collide>
     </model>
+
 
 <!-- ✅ 큐브 6개 (자유 배치, 0.025m 정육면체) -->
 <model name="cube_red_1">
@@ -305,7 +309,7 @@
 <!-- 🔵 plate_blue -->
 <model name="plate_blue">
   <static>true</static>
-  <pose>0.25 0.15 0.005 0 0 0</pose>
+  <pose>0.25 0.15 0.0025 0 0 0</pose>
 
   <link name="base">
     <visual name="bottom">
@@ -322,7 +326,7 @@
   </link>
 
   <link name="wall_front">
-    <pose>0 -0.031 0.0175 0 0 0</pose>
+    <pose>0 -0.029 0.0125 0 0 0</pose>
     <visual name="visual">
       <geometry><box><size>0.06 0.002 0.025</size></box></geometry>
       <material>
@@ -337,7 +341,7 @@
   </link>
 
   <link name="wall_back">
-    <pose>0 0.031 0.0175 0 0 0</pose>
+    <pose>0 0.029 0.0125 0 0 0</pose>
     <visual name="visual">
       <geometry><box><size>0.06 0.002 0.025</size></box></geometry>
       <material>
@@ -352,7 +356,7 @@
   </link>
 
   <link name="wall_left">
-    <pose>-0.031 0 0.0175 0 0 0</pose>
+    <pose>-0.029 0 0.0125 0 0 0</pose>
     <visual name="visual">
       <geometry><box><size>0.002 0.06 0.025</size></box></geometry>
       <material>
@@ -367,7 +371,7 @@
   </link>
 
   <link name="wall_right">
-    <pose>0.031 0 0.0175 0 0 0</pose>
+    <pose>0.029 0 0.0125 0 0 0</pose>
     <visual name="visual">
       <geometry><box><size>0.002 0.06 0.025</size></box></geometry>
       <material>
@@ -385,7 +389,7 @@
 <!-- 🔴 plate_red -->
 <model name="plate_red">
   <static>true</static>
-  <pose>0.25 0.0 0.005 0 0 0</pose>
+  <pose>0.25 0.0 0.0025 0 0 0</pose>
 
   <link name="base">
     <visual name="bottom">
@@ -402,7 +406,7 @@
   </link>
 
   <link name="wall_front">
-    <pose>0 -0.031 0.0175 0 0 0</pose>
+    <pose>0 -0.029 0.0125 0 0 0</pose>
     <visual name="visual">
       <geometry><box><size>0.06 0.002 0.025</size></box></geometry>
       <material>
@@ -417,7 +421,7 @@
   </link>
 
   <link name="wall_back">
-    <pose>0 0.031 0.0175 0 0 0</pose>
+    <pose>0 0.029 0.0125 0 0 0</pose>
     <visual name="visual">
       <geometry><box><size>0.06 0.002 0.025</size></box></geometry>
       <material>
@@ -432,7 +436,7 @@
   </link>
 
   <link name="wall_left">
-    <pose>-0.031 0 0.0175 0 0 0</pose>
+    <pose>-0.029 0 0.0125 0 0 0</pose>
     <visual name="visual">
       <geometry><box><size>0.002 0.06 0.025</size></box></geometry>
       <material>
@@ -447,7 +451,7 @@
   </link>
 
   <link name="wall_right">
-    <pose>0.031 0 0.0175 0 0 0</pose>
+    <pose>0.029 0 0.0125 0 0 0</pose>
     <visual name="visual">
       <geometry><box><size>0.002 0.06 0.025</size></box></geometry>
       <material>
@@ -465,7 +469,7 @@
 <!-- 🟢 plate_green -->
 <model name="plate_green">
   <static>true</static>
-  <pose>0.25 -0.15 0.005 0 0 0</pose>
+  <pose>0.25 -0.15 0.0025 0 0 0</pose>
 
   <link name="base">
     <visual name="bottom">
@@ -482,7 +486,7 @@
   </link>
 
   <link name="wall_front">
-    <pose>0 -0.031 0.0175 0 0 0</pose>
+    <pose>0 -0.029 0.0125 0 0 0</pose>
     <visual name="visual">
       <geometry><box><size>0.06 0.002 0.025</size></box></geometry>
       <material>
@@ -497,7 +501,7 @@
   </link>
 
   <link name="wall_back">
-    <pose>0 0.031 0.0175 0 0 0</pose>
+    <pose>0 0.029 0.0125 0 0 0</pose>
     <visual name="visual">
       <geometry><box><size>0.06 0.002 0.025</size></box></geometry>
       <material>
@@ -512,7 +516,7 @@
   </link>
 
   <link name="wall_left">
-    <pose>-0.031 0 0.0175 0 0 0</pose>
+    <pose>-0.029 0 0.0125 0 0 0</pose>
     <visual name="visual">
       <geometry><box><size>0.002 0.06 0.025</size></box></geometry>
       <material>
@@ -527,7 +531,7 @@
   </link>
 
   <link name="wall_right">
-    <pose>0.031 0 0.0175 0 0 0</pose>
+    <pose>0.029 0 0.0125 0 0 0</pose>
     <visual name="visual">
       <geometry><box><size>0.002 0.06 0.025</size></box></geometry>
       <material>
